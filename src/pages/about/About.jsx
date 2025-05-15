@@ -7,7 +7,7 @@ const About = () => {
                       <path d="M29 33V31C29 29.9391 28.5786 28.9217 27.8284 28.1716C27.0783 27.4214 26.0609 27 25 27H17C15.9391 27 14.9217 27.4214 14.1716 28.1716C13.4214 28.9217 13 29.9391 13 31V33M35 33V31C34.9993 30.1137 34.7044 29.2528 34.1614 28.5523C33.6184 27.8519 32.8581 27.3516 32 27.13M28 15.13C28.8604 15.3503 29.623 15.8507 30.1676 16.5523C30.7122 17.2539 31.0078 18.1168 31.0078 19.005C31.0078 19.8932 30.7122 20.7561 30.1676 21.4577C29.623 22.1593 28.8604 22.6597 28 22.88M25 19C25 21.2091 23.2091 23 21 23C18.7909 23 17 21.2091 17 19C17 16.7909 18.7909 15 21 15C23.2091 15 25 16.7909 25 19Z" stroke="#4A9935" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>`,
       title: "Care about our team",
-      description: "Understand what matters to our employees. Give them what they need to do their best work."
+      description: "We prioritize our team's well-being, growth, and success by fostering a supportive, inclusive, and empowering work environment every day."
     },
     {
       image: `<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -16,7 +16,7 @@ const About = () => {
 </svg>
 `,
       title: "Be excellent to each other",
-      description: "No games. No bullshit. We rely on our peers to improve. Be open, honest and kind."
+      description: "Treat everyone with kindness, respect, and empathy—creating a positive, collaborative culture where all voices are valued and supported."
     },
     {
       image: `<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,7 +25,7 @@ const About = () => {
 </svg>
 `,
       title: "Pride in what we do",
-      description: "Value quality and integrity in everything we do. At all times. No exceptions."
+      description: "We take ownership, deliver high-quality work, and celebrate our impact—driven by passion, purpose, and a commitment to excellence."
     },
     {
       image: `<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -33,8 +33,8 @@ const About = () => {
 <path d="M20 26C20 26 21.5 28 24 28C26.5 28 28 26 28 26M21 21H21.01M27 21H27.01M34 24C34 29.5228 29.5228 34 24 34C18.4772 34 14 29.5228 14 24C14 18.4772 18.4772 14 24 14C29.5228 14 34 18.4772 34 24Z" stroke="#4A9935" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
 `,
-      title: "Don't #!&$ the customer",
-      description: "Understand customers' stated and unstated needs. Make them wildly successful."
+      title: "Don't the customer",
+      description: "Don't disregard the customer; prioritize their satisfaction to foster loyalty, positive feedback, and repeat business, which are crucial for long-term success."
     },
     {
       image: `<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -43,7 +43,7 @@ const About = () => {
 </svg>
 `,
       title: "Do the impossible",
-      description: "Be energized by difficult problems. Revel in unknowns. Ask 'Why?'', but always question,'Why not?'"
+      description: "Embrace challenges and push boundaries; striving for the seemingly impossible often leads to innovation, growth, and the achievement of remarkable feats.'"
     },
     {
       image: `<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -52,13 +52,13 @@ const About = () => {
 </svg>
 `,
       title: "Sweat the small stuff",
-      description: "We believe the best products come from the best attention to detail. Sweat the small stuff."
+      description: "Don't dismiss minor details; meticulous attention to them ensures accuracy, quality, and prevents bigger problems down the line."
     },
   ]
 
 
   return (
-    <div className="container mx-auto px-4 pt-20 md:pt-40 pb-[30px] md:pb-[40px] lg:pb-[96px]">
+    <div className="container mx-auto px-4 pt-20 md:pt-40 pb-[30px] md:pb-[40px] lg:pb-[95px]">
       <div className="flex flex-col justify-center items-center space-y-3">
         <h1 className="font-Poppins font-semibold text-[16px] text-secondery">About us</h1>
         <h1 className="font-Poppins font-semibold text-[20px] md:text-[36px] text-[#172B4D]">About the product</h1>
