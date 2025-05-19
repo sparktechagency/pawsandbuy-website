@@ -7,7 +7,7 @@ const About = () => {
                       <path d="M29 33V31C29 29.9391 28.5786 28.9217 27.8284 28.1716C27.0783 27.4214 26.0609 27 25 27H17C15.9391 27 14.9217 27.4214 14.1716 28.1716C13.4214 28.9217 13 29.9391 13 31V33M35 33V31C34.9993 30.1137 34.7044 29.2528 34.1614 28.5523C33.6184 27.8519 32.8581 27.3516 32 27.13M28 15.13C28.8604 15.3503 29.623 15.8507 30.1676 16.5523C30.7122 17.2539 31.0078 18.1168 31.0078 19.005C31.0078 19.8932 30.7122 20.7561 30.1676 21.4577C29.623 22.1593 28.8604 22.6597 28 22.88M25 19C25 21.2091 23.2091 23 21 23C18.7909 23 17 21.2091 17 19C17 16.7909 18.7909 15 21 15C23.2091 15 25 16.7909 25 19Z" stroke="#4A9935" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
                     </svg>`,
       title: "Care about our team",
-      description: "We prioritize our team's well-being, growth, and success by fostering a supportive, inclusive, and empowering work environment every day."
+      description: "We prioritize our team's well-being growth and success by fostering a supportive inclusive and empowering work environment every day."
     },
     {
       image: `<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -16,7 +16,7 @@ const About = () => {
 </svg>
 `,
       title: "Be excellent to each other",
-      description: "Treat everyone with kindness, respect, and empathy—creating a positive, collaborative culture where all voices are valued and supported."
+      description: "Treat everyone with kindness respect and empathy—creating a positive collaborative culture where all voices are valued and supported."
     },
     {
       image: `<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -25,7 +25,7 @@ const About = () => {
 </svg>
 `,
       title: "Pride in what we do",
-      description: "We take ownership, deliver high-quality work, and celebrate our impact—driven by passion, purpose, and a commitment to excellence."
+      description: "We take ownership deliver high-quality work and celebrate our impact—driven by passion purpose and a commitment to excellence."
     },
     {
       image: `<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -34,7 +34,7 @@ const About = () => {
 </svg>
 `,
       title: "Don't the customer",
-      description: "Don't disregard the customer; prioritize their satisfaction to foster loyalty, positive feedback, and repeat business, which are crucial for long-term success."
+      description: "Don't disregard the customer prioritize their satisfaction to foster loyalty positive feedback and repeat business which are crucial for long-term success."
     },
     {
       image: `<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -43,7 +43,7 @@ const About = () => {
 </svg>
 `,
       title: "Do the impossible",
-      description: "Embrace challenges and push boundaries; striving for the seemingly impossible often leads to innovation, growth, and the achievement of remarkable feats.'"
+      description: "Embrace challenges and push boundaries striving for the seemingly impossible often leads to innovation, growth and the achievement of remarkable feats.'"
     },
     {
       image: `<svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -52,7 +52,7 @@ const About = () => {
 </svg>
 `,
       title: "Sweat the small stuff",
-      description: "Don't dismiss minor details; meticulous attention to them ensures accuracy, quality, and prevents bigger problems down the line."
+      description: "Don't dismiss minor details meticulous attention to them ensures accuracy quality and prevents bigger problems down the line."
     },
   ]
 
