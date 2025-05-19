@@ -6,6 +6,7 @@ import About from "../pages/about/About";
 import Blogs from "../pages/blogs/Blogs";
 import FaqPage from "../pages/faqPage/FaqPage";
 import Privacy from "../pages/privacy/Privacy";
+import BlogDetails from "../pages/blogDetails/BlogDetails";
 
 const router = createBrowserRouter([
     {
@@ -24,6 +25,10 @@ const router = createBrowserRouter([
             {
                 path: "/blogs",
                 element: <Blogs />,
+            },
+            {
+                path: "/blog-details/:id",
+                element: <BlogDetails />,
             },
             {
                 path: "/faq",

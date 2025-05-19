@@ -16,7 +16,7 @@ const Banner = () => {
                     {/* right side */}
                     <div>
                         <h1 className="md:text-[38px] lg:text-[72px] text-[#0E1A2F] font-bold landscape:[72px] font-Poppins">Buy & sell your <br /> pet’s essentials!</h1>
-                        <p className="font-Poppins text-[18px] text-[#3E4F6B] pt-[24px] pb-[10px]">Your trusted marketplace for buying & selling pet essentials.</p>
+                        <p className="font-Poppins text-[18px] text-[#3E4F6B] pt-[24px] pb-[10px]">Your trusted marketplace for buying & selling pet's essentials.</p>
                         <button className="bg-primary text-white rounded-full px-3 py-2 text-[16px] font-Poppins flex items-center">
                             Download the app
                             <span><svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">

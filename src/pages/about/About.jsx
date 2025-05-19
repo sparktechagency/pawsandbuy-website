@@ -61,7 +61,7 @@ const About = () => {
     <div className="container mx-auto px-4 pt-20 md:pt-40 pb-[30px] md:pb-[40px] lg:pb-[95px]">
       <div className="flex flex-col justify-center items-center space-y-3">
         <h1 className="font-Poppins font-semibold text-[16px] text-secondery">About us</h1>
-        <h1 className="font-Poppins font-semibold text-[20px] md:text-[36px] text-[#172B4D]">About the product</h1>
+        <h1 className="font-Poppins font-semibold text-[20px] md:text-[36px] text-[#172B4D]">About the service</h1>
         <p className="font-Inter text-[20px] text-[#3E4F6B] pt-[12px] pb-8 md:pb-[64px] max-w-[560px] text-center">Learn more about the company and the team behind it.</p>
       </div>
 

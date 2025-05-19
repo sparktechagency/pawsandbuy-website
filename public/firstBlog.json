@@ -1,0 +1,15 @@
+[
+  {
+    "id": 1,
+    "image": "/blogs/photo01.png",
+    "title": "Tips to keep your pet healthy",
+    "description": "Learn about the tips for your pet to keep it fit & healthy."
+  },
+  {
+    "id": 2,
+    "image": "/blogs/photo02.png",
+    "title": "10 essential foods for your puppy",
+    "description": "If you’re having a pet then you must should try these 10 foods for it."
+  }
+  
+]
