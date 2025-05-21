@@ -30,7 +30,7 @@ const Footer = () => {
               <h2 className=" font-Poppins font-bold text-[32px] text-[#FFFFFF]">PAWS&BUY</h2>
             </div>
             <p>Your trusted marketplace for</p>
-            <p>buying & selling pet essentials.</p>
+            <p>buying & selling pet's essentials.</p>
             <div className="flex flex-col lg:flex-row lg:space-x-5 pt-[32px]">
               <a href="/">Home</a>
               <a href="/about">About Us</a>

@@ -39,11 +39,11 @@ const BlogDetails = () => {
     return (
         <>
             {
-                singleBlogOne && <div className=' w-[800px] bg-gray-400 bg-opacity-10 mx-auto rounded-xl p-8 mt-32 mb-10'>
+                singleBlogOne && <div className=' lg:w-[800px] bg-gray-400 bg-opacity-10 mx-auto rounded-xl p-8 mt-32 mb-10'>
                     <div className="p-4 max-w-xl mx-auto">
                         <img src={singleBlogOne.image} alt={singleBlogOne.title}
                             className="w-full mb-4 rounded" />
-                        <h2 className="text-2xl font-bold mb-2">{singleBlogOne.title}</h2>
+                        <h2 className="text-[20px] md:text-2xl font-bold mb-2">{singleBlogOne.title}</h2>
                         <p>{singleBlogOne.description}</p>
                     </div>
                 </div>
@@ -51,10 +51,10 @@ const BlogDetails = () => {
             }
 
             {
-                singleBlogTwo && <div className=' w-[800px] bg-gray-400 bg-opacity-10 mx-auto rounded-xl p-8 mt-32 mb-10'>
+                singleBlogTwo && <div className=' lg:w-[800px] bg-gray-400 bg-opacity-10 mx-auto rounded-xl p-8 mt-32 mb-10'>
                     <div className="p-4 max-w-xl mx-auto">
                         <img src={singleBlogTwo.image} alt={singleBlogTwo.title} className="w-full mb-4 rounded" />
-                        <h2 className="text-2xl font-bold mb-2">{singleBlogTwo.title}</h2>
+                        <h2 className="text-[20px] md:text-2xl font-bold mb-2">{singleBlogTwo.title}</h2>
                         <p>{singleBlogTwo.description}</p>
                     </div>
                 </div>
