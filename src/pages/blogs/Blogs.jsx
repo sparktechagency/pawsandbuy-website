@@ -54,13 +54,15 @@ const Blogs = () => {
             {
               blogsOne.map((item, index) => {
                 return (
-                  <div key={index} className="relative">
+                  <div key={index} 
+                  onClick={() => handleFirstBlog(item.id)}
+                  className="relative cursor-pointer">
                     <img src={item.image} alt="blog photo" className="object-cover" />
 
                     <div className="absolute left-6 bottom-6 max-w-[353px]">
                       <h1 className="font-Poppins font-semibold text-[20px] md:text-[30px] text-[#172B4D]">{item.title}</h1>
                       <p className="font-Poppins text-[14px] text-[#3E4F6B]">{item.description}</p>
-                      <button onClick={() => handleFirstBlog(item.id)} className="flex items-center gap-1 font-Poppins text-[14px] text-[#073F40] font-bold pt-[22px] pl-3">Read more <IoIosArrowRoundForward className="text-[#0373F40] text-xl font-bold" /></button>
+                      <button className="flex items-center gap-1 font-Poppins text-[14px] text-[#073F40] font-bold pt-[22px] pl-3">Read more <IoIosArrowRoundForward className="text-[#0373F40] text-xl font-bold" /></button>
                     </div>
                   </div>
                 )
@@ -75,12 +77,14 @@ const Blogs = () => {
             {
               blogsTwo?.map((itemTwo, index) => {
                 return (
-                  <div key={index} className="relative">
+                  <div key={index} 
+                  onClick={() => handleSecondBlog(itemTwo.id)}
+                  className="relative cursor-pointer">
                     <img src={itemTwo.image} alt="blog photo" className="object-cover" />
                     <div className="absolute left-6 bottom-6 max-w-[353px]">
                       <h1 className="font-Poppins font-semibold text-[20px] md:text-[30px] text-[#172B4D]">{itemTwo.title}</h1>
                       <p className="font-Poppins text-[14px] text-[#3E4F6B]">{itemTwo.description}</p>
-                      <button onClick={() => handleSecondBlog(itemTwo.id)} className="flex items-center gap-1 font-Poppins text-[14px] text-[#073F40] font-bold pt-[22px] pl-3">Read more <IoIosArrowRoundForward className="text-[#0373F40] text-xl font-bold" /></button>
+                      <button  className="flex items-center gap-1 font-Poppins text-[14px] text-[#073F40] font-bold pt-[22px] pl-3">Read more <IoIosArrowRoundForward className="text-[#0373F40] text-xl font-bold" /></button>
                     </div>
                   </div>
                 )
