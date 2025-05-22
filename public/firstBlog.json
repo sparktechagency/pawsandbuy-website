@@ -2,14 +2,45 @@
   {
     "id": 1,
     "image": "/blogs/photo01.png",
-    "title": "Tips to keep your pet healthy",
-    "description": "Learn about the tips for your pet to keep it fit & healthy."
+    "title": "How Pet's Improve Our Mental Health",
+    "descriptionName1": "Introduction:",
+    "description1": "Our furry companions do more than just keep us company—they play a huge role in supporting our mental health. Whether you're a cat lover, a dog parent, or someone who adores rabbits, birds, or even reptiles, your pet may be your secret therapist.",
+    "descriptionName2": "The Science Behind the Bond:",
+    "description2": "Research shows that interacting with animals reduces cortisol (the stress hormone) and boosts serotonin and dopamine—two feel-good brain chemicals. Simply petting a dog or watching fish swim can ease anxiety and promote a sense of calm.",
+    "descriptionName3": "Emotional Support and Routine:",
+    "description3": "Pet's offer unconditional love and presence. They give structure to our day—feeding them, walking them, or playing with them helps create a stable routine. This can be especially helpful for those managing depression or anxiety.",
+    "descriptionName4": "Beyond Dogs and Cats:",
+    "description4": "Birds provide cheerful companionship, rabbits are gentle stress-relievers, and even reptiles can form meaningful bonds. All pet's, in their own way, can provide mental stimulation, emotional connection, and purpose.",
+    "descriptionName5": "Conclusion:",
+    "description5": "Next time you cuddle your pet, remember—you're not just giving love, you're also receiving emotional healing in return."
   },
   {
     "id": 2,
     "image": "/blogs/photo02.png",
-    "title": "10 essential foods for your puppy",
-    "description": "If you’re having a pet then you must should try these 10 foods for it."
+    "title": "Eco-Friendly Choices for Pet Owners",
+    "descriptionName1": "Introduction:",
+    "description1": "Caring for our pet's also means caring for the planet. Today, sustainability is not just a trend—it's a responsibility. Let’s explore simple and eco-friendly ways to care for your pet's while reducing your carbon pawprint.",
+
+
+
+
+    "descriptionName2": "Sustainable Pet Products:",
+    "description2": "Opt for biodegradable poop bags, bamboo litter trays, and toys made from recycled or natural materials. Many brands now offer eco-conscious products that are just as safe and fun for your pet's.",
+
+    "descriptionName3": "Eco-Friendly Food Choices:",
+    "description3": "Look for pet food made with sustainable protein sources or ethically-sourced ingredients. Some brands even use insect protein, which is high in nutrition and lower in environmental impact.",
+
+    "descriptionName4":"Reduce Waste and Reuse:",
+    "description4": "Donate old pet beds, collars, and toys to shelters instead of throwing them away. Refill stations for pet shampoo and cleaning products are a great way to cut down on packaging.",
+
+    "descriptionName5":"Green Pet Fashion:",
+    "description5": "Eco-conscious pet fashion is on the rise—look for collars, bandanas, and coats made from organic or recycled fabrics.",
+
+    "descriptionName6":"Conclusion:",
+    "description6": "Small, mindful choices can make a big difference. Being a responsible pet owner today means thinking about the planet too"
   }
-  
 ]
+
+
+
+      

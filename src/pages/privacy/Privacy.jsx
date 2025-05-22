@@ -1,7 +1,11 @@
+import { useEffect } from "react";
 
 
 
 const Privacy = () => {
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, []);
   return (
     <>
       <div className="container mx-auto px-4 pt-20 md:pt-40">

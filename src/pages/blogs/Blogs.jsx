@@ -62,11 +62,15 @@ const Blogs = () => {
                   <div key={index}
                     onClick={() => handleFirstBlog(item.id)}
                     className="relative cursor-pointer">
-                    <img src={item.image} alt="blog photo" className="object-cover" />
+                    <img src={item.image} alt="blog photo" className="object-cover h-[350px] lg:h-full rounded-md" />
 
-                    <div className="absolute left-6 bottom-6 max-w-[353px]">
+                    <div className="absolute bottom-6 px-4">
                       <h1 className="font-Poppins font-semibold text-[20px] md:text-[30px] text-[#172B4D]">{item.title}</h1>
-                      <p className="font-Poppins text-[14px] text-[#3E4F6B]">{item.description}</p>
+                      <p className="font-Poppins text-[14px] text-[#3E4F6B] text-wrap">
+                        {item?.description1?.split(' ').length > 30
+                          ? item?.description1?.split(' ').slice(0, 30).join(' ') + ''
+                          : item?.description1}
+                      </p>
                       <button className="flex items-center gap-1 font-Poppins text-[14px] text-[#073F40] font-bold pt-[22px] pl-3">Read more <IoIosArrowRoundForward className="text-[#0373F40] text-xl font-bold" /></button>
                     </div>
                   </div>
@@ -85,10 +89,16 @@ const Blogs = () => {
                   <div key={index}
                     onClick={() => handleSecondBlog(itemTwo.id)}
                     className="relative cursor-pointer">
-                    <img src={itemTwo.image} alt="blog photo" className="object-cover" />
-                    <div className="absolute left-6 bottom-6 max-w-[353px]">
+                    <img src={itemTwo.image} alt="blog photo" className="object-cover h-[350px] lg:h-full rounded-md" />
+                    <div className="absolute  bottom-6  px-4">
                       <h1 className="font-Poppins font-semibold text-[20px] md:text-[30px] text-[#172B4D]">{itemTwo.title}</h1>
-                      <p className="font-Poppins text-[14px] text-[#3E4F6B]">{itemTwo.description}</p>
+
+                      <p className="font-Poppins text-[14px] text-[#3E4F6B] text-wrap">
+                        {itemTwo?.description1?.split(' ').length > 30
+                          ? itemTwo?.description1?.split(' ').slice(0, 30).join(' ') + ''
+                          : itemTwo?.description1}
+                      </p>
+
                       <button className="flex items-center gap-1 font-Poppins text-[14px] text-[#073F40] font-bold pt-[22px] pl-3">Read more <IoIosArrowRoundForward className="text-[#0373F40] text-xl font-bold" /></button>
                     </div>
                   </div>

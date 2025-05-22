@@ -1,5 +1,9 @@
+import { useEffect } from "react";
 
 const About = () => {
+    useEffect(() => {
+      window.scrollTo(0, 0);
+    }, []);
   const values = [
     {
       image: ` <svg width="48" height="48" viewBox="0 0 48 48" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -107,8 +111,8 @@ const About = () => {
       <div className="pt-[122px]">
         <h2 className="font-Poppins font-medium text-[16px] text-[#535862] text-center">From startups to the world’s largest companies</h2>
 
-        <div className="flex justify-center items-center  pt-[32px]">
-          <div className="flex flex-wrap lg:flex-row items-center gap-10 md:gap-6 lg:space-x-[92px]">
+        <div className="flex flex-col md:flex-row justify-center items-center  pt-[32px]">
+          <div className="flex flex-col md:flex-row flex-wrap lg:flex-row items-center gap-10 md:gap-6 lg:space-x-[92px]">
             <span className="flex items-center gap-2">
              <img src="/aboutLogo/capitalism.png" alt="" className="w-[40px]"/>
               <h2 className="text-[#535862] font-semibold font-Poppins">Capitalism</h2>

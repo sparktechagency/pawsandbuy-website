@@ -174,12 +174,12 @@ const Footer = () => {
 
         <hr className="mt-[64px] mb-[32px]" />
 
-        <div className="flex flex-wrap lg:flex-row justify-between items-center">
+        <div className="flex flex-wrap justify-center lg:flex-row  md:justify-between items-center">
           <h3 className="text-center md:text-start">
             © 2025 Paws&Buy. All rights reserved.
           </h3>
 
-          <div className=" flex justify items-center  space-x-[24px] pt-6 lg:pt-0">
+          <div className=" flex justify items-center space-x-[24px] pt-6 lg:pt-0">
             <a href="https://www.facebook.com/share/1ABnFiXv7F/?mibextid=wwXIfr">
               <FaFacebook className="text-3xl text-gray-400 opacity-80" />
             </a>
