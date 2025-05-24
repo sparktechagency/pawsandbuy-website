@@ -51,7 +51,10 @@ const Navbar = () => {
               <div onClick={handleNavigate} className="cursor-pointer hidden md:block">
                 <span onClick={handleNavigate} className="flex items-center gap-[16px] cursor-pointer">
                   <img src="/logo.svg" alt="logo" className="h-20 object-cover" />
-                  <h1 className=" font-Poppins font-bold text-[32px] text-[#000000]">PAWS&BUY</h1>
+                  <div className="flex relative">
+                    <h2 className=" font-Poppins font-bold text-[32px] text-[#000000]">PAWS&BUY</h2>
+                    <sup className="text-[10px] absolute -right-4 top-2 font-bold">TM</sup>
+                  </div>
                 </span>
               </div>
 
@@ -59,7 +62,10 @@ const Navbar = () => {
               <div onClick={handleNavigate} className="cursor-pointer py-2  md:hidden">
                 <span onClick={handleNavigate} className="flex items-center gap-[16px] cursor-pointer">
                   <img src="/logo.svg" alt="logo" className="h-12 object-cover" />
-                  <h1 className=" font-Poppins font-bold text-[27px] text-[#000000]">PAWS&BUY</h1>
+                  <div className="flex relative">
+                    <h2 className=" font-Poppins font-bold text-[26px] text-[#000000]">PAWS&BUY</h2>
+                    <sup className="text-[10px] absolute -right-4 top-2 font-bold">TM</sup>
+                  </div>
                 </span>
               </div>
             </div>
@@ -159,7 +165,10 @@ const Navbar = () => {
                 <div onClick={handleNavigate} className="cursor-pointer">
                   <span onClick={handleNavigate} className="flex items-center gap-[16px] cursor-pointer">
                     <img src="/logo.svg" alt="logo" className="h-20 object-cover" />
-                    <h1 className=" font-Poppins font-bold text-[32px] text-[#000000]">PAWS&BUY</h1>
+                    <div className="flex relative">
+                      <h2 className=" font-Poppins font-bold text-[32px] text-[#000000]">PAWS&BUY</h2>
+                      <sup className="text-[10px] absolute -right-4 top-2 font-bold">TM</sup>
+                    </div>
                   </span>
                 </div>
               </div>

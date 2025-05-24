@@ -27,7 +27,10 @@ const Footer = () => {
           <div className="">
             <div className="flex  items-center gap-[16px] pb-[32px] ">
               <img src="/logo.svg" alt="logo" className="h-20 object-cover" />
-              <h2 className=" font-Poppins font-bold text-[32px] text-[#FFFFFF]">PAWS&BUY</h2>
+              <div className="flex relative">
+                <h2 className=" font-Poppins font-bold text-[30px] md:text-[32px] text-[#FFFFFF]">PAWS&BUY</h2>
+                <sup className="text-[10px] absolute -right-4 top-2 font-bold">TM</sup>
+              </div>
             </div>
             <p>Your trusted marketplace for</p>
             <p>buying & selling pet's essentials.</p>
